@@ -1,0 +1,73 @@
+.toggleButton {
+  z-index: 100;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  transition: background-color 250ms linear, transform 300ms ease;
+}
+
+.toggleButton.open {
+  background-color: var(--background);
+  transform: scale(0.9);
+}
+
+.nav {
+  background-color: var(--primary);
+  position: fixed;
+  overflow: hidden;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  clip-path: circle(0px at calc(100% - 45px) 45px);
+  transition: clip-path 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.nav.open {
+  visibility: visible;
+  clip-path: circle(150% at calc(100% - 45px) 45px);
+}
+
+:global([dir="rtl"]) .nav {
+  clip-path: circle(0px at 45px 45px);
+}
+:global([dir="rtl"]) .nav.open {
+  clip-path: circle(150% at 45px 45px);
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menuItem {
+  font-size: 8vh;
+  margin-bottom: 20px;
+}
+
+.menuLink {
+  letter-spacing: -2px;
+  font-weight: 300;
+  color: var(--background);
+  text-decoration: none;
+  display: block;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.menuLink:hover {
+  transform: scale(1.05);
+  opacity: 0.7;
+}

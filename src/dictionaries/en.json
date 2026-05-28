@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "title": "Gal-Code | Custom Coded Web Development",
+    "description": "Gal-Code custom web development, utilizing the most advanced web technologies. High-end websites with a strong emphasis on proper Google SEO."
+  },
+
+  "brand": "Gal-Code",
+
+  "navigation": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact Me"
+  }
+}

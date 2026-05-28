@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem; /* ריווח נעים מהצדדים */
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* יוצר רווח יפה בין מחליף השפות לכפתור התפריט */
+}
