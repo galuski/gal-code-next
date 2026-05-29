@@ -53,7 +53,7 @@
 
 /* אפקט מעבר עכבר על השפות */
 .langOption:hover {
-  background-color: var(--foreground);
+  background-color: var(--primary);
   color: var(--background);
 }
 

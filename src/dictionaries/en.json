@@ -11,5 +11,12 @@
     "about": "About Me",
     "projects": "Projects",
     "contact": "Contact Me"
+  },
+
+  "hero": {
+    "title": "Gal-Code",
+    "subtitle": "Custom Coded Web Development",
+    "description": "Your business deserves much more than just a prompt line, Take your business one step forward using the pinnacle of technology and a human touch.",
+    "cta": "Let's Talk"
   }
 }

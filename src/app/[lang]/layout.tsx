@@ -37,7 +37,7 @@ const customSpanglishFontH = localFont({
 const customSpanglishFontp = localFont({
   src: [
     {
-      path: "../fonts/FuturaCyrillicLight.ttf", // שנה לשם הקובץ האמיתי שלך
+      path: "../fonts/FuturaCyrillicBook.ttf", // שנה לשם הקובץ האמיתי שלך
       weight: "400",
       style: "normal",
     }
@@ -61,7 +61,7 @@ const customHebrewFontH = localFont({
 const customHebrewFontP = localFont({
   src: [
     {
-      path: "../fonts/Heebo-Light.ttf", // שנה לשם הקובץ האמיתי שלך
+      path: "../fonts/Heebo-Regular.ttf", // שנה לשם הקובץ האמיתי שלך
       style: "normal",
     },
     // אפשר להוסיף כאן עוד משקלים (Bold, Light) בדיוק כמו למעלה

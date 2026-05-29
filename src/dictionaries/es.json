@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Gal-Code | Desarrollo Web con Código",
+    "title": "Gal-Código | Desarrollo Web con Código",
     "description": "Desarrollo web Gal-Code mediante código, utilizando las tecnologías más avanzadas. Sitios web de alto nivel con un fuerte enfoque en el posicionamiento orgánico (SEO) en Google."
   },
 
@@ -11,5 +11,12 @@
     "about": "Sobre Mí",
     "projects": "Proyectos",
     "contact": "Contacto"
+  },
+
+  "hero": {
+    "title": "Gal-Código",
+    "subtitle": "Desarrollo Web con Código a Medida",
+    "description": "Tu negocio se merece mucho más que una línea de prompt, Lleva tu negocio un paso adelante utilizando la máxima tecnología y un toque humano.",
+    "cta": "Hablemos"
   }
 }

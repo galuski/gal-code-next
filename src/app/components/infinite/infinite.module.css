@@ -1,0 +1,102 @@
+.brands {
+  /* --- שינויים למיקום אבסולוטי --- */
+  position: absolute;
+  bottom: 0; /* מצמיד את הסליידר לתחתית אזור ה-Hero */
+  left: 0;
+  right: 0;
+  width: 100%; /* חובה להוסיף רוחב מלא כדי שהמירכוז יעבוד באבסולוט */
+  z-index: 1; /* מוודא שהסליידר יישאר מאחור */
+
+  /* --- שאר ההגדרות המקוריות נשמרות! --- */
+  overflow: hidden;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem; 
+}
+
+/* אפקט הטשטוש הורחב משמעותית כדי ליצור את המראה מהתמונה */
+.brands::before,
+.brands::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 25%; /* פדינג וטשטוש רחבים מאוד בצדדים */
+  height: 100%;
+  z-index: 2;
+  pointer-events: none; 
+}
+
+.brands::before {
+  left: 0;
+  background: linear-gradient(to right, var(--background) 0%, transparent 100%);
+}
+
+.brands::after {
+  right: 0;
+  background: linear-gradient(to left, var(--background) 0%, transparent 100%);
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  width: max-content; 
+  animation: scroll 40s linear infinite; /* האטתי מעט ל-40 שניות כי המערך ארוך יותר */
+}
+
+.track:hover {
+  animation-play-state: paused; 
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); 
+  }
+}
+
+.logoWrapper {
+  position: relative; /* קריטי כדי שהטקסט ימוקם ביחס לכל לוגו בנפרד */
+  padding: 0 45px; 
+  height: 50px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  filter: grayscale(100%) opacity(0.6); 
+  transition: filter 0.3s ease;
+  cursor: pointer;
+}
+
+.logoWrapper:hover {
+  filter: grayscale(0%) opacity(1);
+}
+
+/* עיצוב ואנימציה לטקסט שמופיע מתחת */
+.brandName {
+  position: absolute;
+  bottom: -25px; /* ממוקם מתחת ללוגו */
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--foreground); /* צבע הטורקיז של המותג שלך */
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  white-space: nowrap; /* מונע שבירת שורות בשמות ארוכים */
+}
+
+.logoWrapper:hover .brandName {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 1024px) {
+  .brands {
+    position: relative; /* מבטל את ההדבקה לתחתית ומחזיר לזרימה טבעית */
+    margin-top: 2rem; /* המרחק בין כפתור ה-Let's Talk ללוגואים */
+    padding: 2rem 0; /* מקטין את הריווח הפנימי המיותר במובייל */
+  }
+}
