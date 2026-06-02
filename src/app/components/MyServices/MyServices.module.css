@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    padding: 1.25rem;
+    background-color: var(--foreground);
+}
+
+.cardsContainer {
+  display: grid;
+  /* יצירת גריד רספונסיבי לחלוטין שמסתדר אוטומטית ללא מדיה קווריז */
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}

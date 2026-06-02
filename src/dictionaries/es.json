@@ -18,5 +18,45 @@
     "subtitle": "Desarrollo Web con Código a Medida",
     "description": "Tu negocio se merece mucho más que una línea de prompt, Lleva tu negocio un paso adelante utilizando la máxima tecnología y un toque humano.",
     "cta": "Hablemos"
+  },
+
+  "about": {
+    "title": "Sobre Mí",
+    "greeting": "Hola, soy Gal Luski,",
+    "academy": "graduado del programa de <strong>Fullstack Developer</strong> en <strong>Coding Academy</strong> y licenciado en <strong>Economía y Sistemas de Información</strong> por <strong>Tel-Hai College</strong>.",
+    "whyWeb": "Mi primer contacto con el mundo de la creación y diseño de páginas web fue al final de mi licenciatura. La sensación de que una sola línea de códigos pudiera mostrar algo tangible en la pantalla hizo que me conectara profundamente con este campo, en el que decidí especializarme.",
+    "knowledge": "Con mis conocimientos profesionales, quiero construir sitios web con una base sólida y un diseño único, que reflejen el gusto especial de cada persona.",
+    "difference": "Las principales diferencias entre las páginas web con <strong>códigos</strong> que desarrollo desde cero y los creadores de páginas <strong>“prefabricadas”</strong> es que las páginas basados en códigos ofrecen <strong>una mayor velocidad de navegación</strong>, una estructura optimizada para el <strong>posicionamiento en buscadores</strong>, y sobre todo, <strong>una libertad total de diseño</strong>, sin estar limitado por plantillas.",
+    "presence": "En el mundo actual, todo negocio necesita <strong>presencia online</strong>, más allá de las redes sociales. Estoy aquí para acompañarte a cada paso, con profesionalidad y una sonrisa."
+  },
+
+  "Myservices": {
+    "title": "Todo lo que tu sitio web necesita",
+    "items": {
+      "websites": {
+        "title": "Sitios web",
+        "description": "Desde una simple landing page hasta una tienda online completa, adaptado a tus necesidades."
+      },
+      "design": {
+        "title": "Diseño",
+        "description": "Páginas personalizadas creadas desde el enfoque del usuario, con identidad y branding únicos."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Optimización inteligente para motores de búsqueda, ayudando a tus clientes a encontrarte fácilmente en Google."
+      },
+      "accessibility": {
+        "title": "Accesibilidad",
+        "description": "Desarrolladas según estándares de accesibilidad, para que todas las personas puedan navegar."
+      },
+      "multilingual": {
+        "title": "Multilingüe",
+        "description": "Amplía tu audiencia con sitios web disponibles en varios idiomas."
+      },
+      "copywriting": {
+        "title": "Copywriting",
+        "description": "Textos claros y atractivos que transmiten los valores de tu negocio y comunican tu mensaje."
+      }
+    }
   }
 }

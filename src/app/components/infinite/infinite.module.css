@@ -58,7 +58,7 @@
 
 .logoWrapper {
   position: relative; /* קריטי כדי שהטקסט ימוקם ביחס לכל לוגו בנפרד */
-  padding: 0 45px; 
+  padding: 0 2rem; 
   height: 50px; 
   display: flex;
   flex-direction: column;

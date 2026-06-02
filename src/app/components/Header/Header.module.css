@@ -4,11 +4,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 1.2rem 0 1.2rem; /* ריווח נעים מהצדדים */
-}
-
-.actions {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* יוצר רווח יפה בין מחליף השפות לכפתור התפריט */
+  padding: 1.25rem 1.25rem 0 1.25rem; /* ריווח נעים מהצדדים */
 }

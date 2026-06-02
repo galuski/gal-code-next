@@ -1,0 +1,22 @@
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.line {
+  display: inline-block;
+  width: 100px;
+  height: 2px;
+  background-color: var(--primary);
+  border-radius: 2px;
+  flex-shrink: 0; /* מונע מהקו להתכווץ במסכים קטנים */
+}
+
+.text {
+  margin: 0; /* מאפסים את המרג'ין הדינמי כדי שהטקסט יהיה בקו ישר מושלם עם הקו */
+  font-weight: 600;
+  text-transform: uppercase; /* טאץ' עיצובי קטן עבור הכותרות באנגלית/ספרדית */
+}

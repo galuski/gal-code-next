@@ -9,9 +9,8 @@
 .button {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   cursor: pointer;
-  padding: 8px 12px;
   background-color: transparent;
   border: none
 }
@@ -21,11 +20,11 @@
   position: absolute;
   top: 100%; /* ממקם את התפריט בדיוק מתחת לכפתור */
   right: 0; /* מצמיד אותו לצד ימין (או left: 0 אם תרצה לשמאל) */
-  margin-top: 4px;
+  /* margin-top: 4px; */
   background-color: white;
   border: 1px solid #ddd;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  min-width: 110px;
+  min-width: 100px;
   z-index: 100; /* מוודא שהתפריט יופיע מעל אלמנטים אחרים */
   
   /* הסתרה כברירת מחדל */
@@ -42,8 +41,8 @@
 .langOption {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 12px;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
   cursor: pointer;
   border: none;
   background: none;

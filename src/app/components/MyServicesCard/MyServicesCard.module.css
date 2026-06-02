@@ -1,0 +1,81 @@
+.card {
+  background-color: var(--background);
+  border-radius: 0.5rem;
+  padding: 4.5rem 2rem 2.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ממרכז את הטקסט, בהתאם לעיצוב בתמונה */
+  text-align: center;
+  gap: 1rem;
+  margin-top: 50px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.iconWrapper {
+  position: absolute;
+  top: -50px; /* בדיוק חצי מהגובה של האייקון (100px) */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: var(--background);
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.iconMask {
+  width: 50px;
+  height: 50px;
+  /* כאן אתה שולט בצבע של ה-SVG! */
+  background-color: var(--primary);
+
+  /* הגדרות המסכה */
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  transition: background-color 0.3s ease;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.description {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0.8;
+  line-height: 1.6;
+  transition: color 0.3s ease;
+}
+
+.card:hover {
+  background-color: var(--primary);
+  color: var(--background); /* ישנה את צבע הטקסט הכללי */
+}
+
+/* הבטחה שהכותרת והתיאור יהיו בצבע לבן */
+.card:hover .title,
+.card:hover .description {
+  color: var(--background);
+}
+
+/* הפיכת צבעי האייקון כדי שיבלוט על הרקע החדש */
+.card:hover .iconWrapper {
+  background-color: var(--background);
+}
+
+.card:hover .iconMask {
+  background-color: var(--primary);
+}

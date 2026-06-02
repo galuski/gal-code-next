@@ -18,5 +18,45 @@
     "subtitle": "Custom Coded Web Development",
     "description": "Your business deserves much more than just a prompt line, Take your business one step forward using the pinnacle of technology and a human touch.",
     "cta": "Let's Talk"
+  },
+
+  "about": {
+    "title": "About Me",
+    "greeting": "Hello, I’m Gal Luski,",
+    "academy": "a graduate of the <strong>Fullstack Developer</strong> program at <strong>Coding Academy</strong>, and also hold a Bachelor’s degree in <strong>Economics and Information Systems</strong> from <strong>Tel-Hai College</strong>.",
+    "whyWeb": "I was first exposed to the field of <strong>web development</strong> toward the end of my undergraduate studies. The feeling that a single line of code could display something tangible on the screen made me connect deeply to <strong>web development</strong>, the field I chose to specialize in.",
+    "knowledge": "With my professional knowledge, I want to build websites with a solid foundation and proper architecture, designed to reflect each person’s unique taste.",
+    "difference": "The key difference between a website I develop from scratch with <strong>clean code</strong> and the <strong>Off the Shelf</strong> website builders is that code-based websites provide <strong>faster browsing performance</strong>, optimized site structure for <strong>search engine ranking</strong>, and complete <strong>design freedom</strong> without being limited by templates.",
+    "presence": "In today’s world, every business needs an <strong>online presence</strong>, not only on social media. I’m here to walk with you step by step, with professionalism and a smile!"
+  },
+
+  "Myservices": {
+    "title": "Everything your website needs",
+    "items": {
+      "websites": {
+        "title": "Websites",
+        "description": "From a simple landing page to a full-featured e-commerce store, tailored to your needs."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Custom websites designed with user experience and unique branding in mind."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Smart search engine optimization to help clients find your website easily on Google."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Built according to accessibility standards so everyone can use your website comfortably."
+      },
+      "multilingual": {
+        "title": "Multilingual",
+        "description": "Expand your audience with websites available in multiple languages."
+      },
+      "copywriting": {
+        "title": "Copywriting",
+        "description": "Clear, engaging texts that highlight your business values and communicate your message effectively."
+      }
+    }
   }
 }

@@ -1,0 +1,48 @@
+.about {
+  width: 100%;
+  padding: 0 1.25rem;
+  margin: 0 auto
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* חצי מסך לטקסט, חצי מסך לתמונה */
+  align-items: center;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* מדגיש את תגיות ה-strong בתוך הטקסט שלנו בעזרת צבע המותג */
+.textWrapper strong {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+/* =========================================
+   Responsive Design (Tablet & Mobile)
+   ========================================= */
+
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr; /* הופך לטור אחד במסכים קטנים */
+    gap: 2rem;
+  }
+
+  .imageWrapper {
+    order: -1; /* מקפיץ את התמונה מעל הטקסט במובייל (אופציונלי, למראה מודרני) */
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

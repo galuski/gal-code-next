@@ -11,10 +11,10 @@ interface HeaderProps {
 export default function Header({ lang, dict }: HeaderProps) {
   return (
     <header className={styles.header}>
-      <Logo lang={lang} brandName={dict?.brand} />
+      {/* <Logo lang={lang} brandName={dict?.brand} /> */}
+      <LanguageSwitcher />
 
       <div className={styles.actions}>
-        <LanguageSwitcher />
         <NavLinks dict={dict?.navigation} />{" "}
       </div>
     </header>
